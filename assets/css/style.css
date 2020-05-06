@@ -1,0 +1,51 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+#660066
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-nav{
+    background-color: #660066;
+    height: 64px;
+}
+
+.navbar-nav li a{
+    font-size: 15px;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.imagen{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+}
+
+/*
+Cards
+*/
+
+.cards{
+    background-color: #660066;
+    height: 982px;
+}
+
+.card-title{
+    font-size: 23px;
+}
+
+.card-text{
+    font-size: 16px;
+}
+
+
+
