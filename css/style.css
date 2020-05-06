@@ -1,0 +1,43 @@
+body{
+    font-family: 'Open Sans', sans-serif;  
+}
+
+.bg-nav{
+    background-color: #E83E8C;
+}
+
+.navbar-brand img{
+    width: 132px;
+    height: 53px;
+}
+
+.navbar-nav li a{
+    font-size: 16px;
+    font-weight: 400;
+}
+section h1{
+    color: #707070;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){
+    
+    #nav-mobile{
+        margin: 0 6% 0 6%;
+    }
+    
+    section h1{
+        font-size: 35px;
+    }
+}
