@@ -1,20 +1,24 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <title>Title2</title>
+    <title>Ángeles</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-</head> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+  </head> 
+
   <body>
 
-    <!-- Navegador falta link smooth scroll -->
+    <!-- Navegador  -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-nav fixed-top">
+      <div id="nav-mobile" class="container md">
       <a class="navbar-brand" href="#">A</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -22,57 +26,87 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Sobre mí<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#About">Sobre mí<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Experiencia</a>
+            <a class="nav-link" href="#Experiencia">Experiencia</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Trabajos</a>
+            <a class="nav-link" href="#Trabajos">Trabajos</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#Contacto">Contacto</a>
           </li>
         </ul>
       </div>
+    </div>
     </nav>
 
-    <!-- Header-->
-    <header>
-      <div class="container"> 
-       <div class="Jumbotron bg-transparent text-center">
-        <img class="imagen" src="assets/img/F99F49D4-48D0-4A37-AD01-8E6EA4C90644.JPG" alt="Foto mía">
-      <h1 class="display-4">YO SOY</h1>
-      <hr class="my-2">
-      <h1 class="display-4">ÁNGELES</h1>
+    <!-- Header -->
+    <header id="About">
+      <div class="container"><img class="imagen" src="assets/img/F99F49D4-48D0-4A37-AD01-8E6EA4C90644.JPG" alt="Foto mía"></div>> 
+       <div class="jumbotron bg-transparent text-center text-white">
+      <h1 class="display-4 font-weight-lighter titulo">YO SOY</h1>
+      <hr class="my-2 col-3 border-white linea">
+      <h1 class="display-4 display-4 font-weight-bold titulo2">ÁNGELES</h1>
       </div>
       </div>
     </header>
 
     <section>
-     
-      <h2>Ingeniero Comercial, especialista en finanzas, con gran iniciativa, buena comunicación, capacidad de realizar trabajos en equipos, competencia en liderazgo. Con conocimientos y experiencia en planificación estratégica, control de gestión y políticas públicas.</h2>
-      <hr class="my-2">
-      <div class="row">
+     <div id="Experiencia" class="container d-sm-block d-none">
+      <p class="d-none d-sm-none d-md-block text-center">
+        Ingeniero Comercial, especialista en finanzas, con gran iniciativa, buena comunicación, capacidad de realizar trabajos en equipos, competencia en liderazgo. Con conocimientos y experiencia en planificación estratégica, control de gestión y políticas públicas.
+      </p>
+        <hr class="my-2">
+      <div class="row justify-content-center mt-5 justificar">
       <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi sit perferendis asperiores magni, officia rem ipsa sint iste incidunt recusandae reiciendis cum consequatur consequuntur numquam quos! Doloremque, est explicabo!</p>
+      <p class="d-none d-sm-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi sit perferendis asperiores magni, officia rem ipsa sint iste incidunt recusandae reiciendis cum consequatur consequuntur numquam quos! Doloremque, est explicabo!</p>
       </div>
-      <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam repellat dolores saepe nesciunt ad enim possimus fuga quidem suscipit aspernatur aliquid esse mollitia, cumque nisi voluptatum odit quis iure blanditiis.</p>
+      <div class="col-sm-4 justificar">
+      <p class="d-none d-sm-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam repellat dolores saepe nesciunt ad enim possimus fuga quidem suscipit aspernatur aliquid esse mollitia, cumque nisi voluptatum odit quis iure blanditiis.</p>
       </div>
       </div>   
+     </div>
+    </section>
+
+<!-- Carrousel -->
+<section id="Experiencia" class="pt5">
+  <div class="text-center mt-5">
+  <h1 class="display-5 font-weight-bold">MI EXPERIENCIA</h1>
+  <hr class="my-2 col-1 border-black subline"/>
+</div>
+<div class="row justify-content-center mt-5">   
+<div id="Experiencia" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div class="carousel-inner">  
+      <div class="carousel-item active py-4">
+        <div class="row text center">
+          <div class="col-6"><i class="fas fa-graduation-cap fa-4x"></i><h2 class="display-5 pt-3">Ingeniera Comercial</h2></div>
+          <div class="col-6"><i class="fas fa-hand-holding fa-4x"></i><h2 class="display-5 pt-3">Techo</h2></div>
+        </div>
+      </div>
+        <div class="carousel-item py-4">
+        <div class="row text center">
+          <div class="col-6"><i class="fas fa-church fa-4x"></i><h2 class="display-5 pt-3">Hogar de Cristo</h2></div>
+          <div class="col-6"><i class="fas fa-splotch fa-4x"></i><h2 class="display-5 pt-3">Desing thinking</h2></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
     </section>
 
   <!-- Cards-->
-  <section class="cards py-5">
-   <div class="container">
-    <h1 class="display-4 text-center text-white">MIS ÚLTIMOS TRABAJOS</h1>
+  
+  <section id="Trabajos" class="cards py-5">
+    <div class="container">
+    <h1 class="display-5 text-center text-white">MIS ÚLTIMOS TRABAJOS</h1>
     <hr class="my-2 col-1 border-white subline" />
     <div class="card-deck">
     <div class="row row-cols-1 row-cols-md-3 pt-5">
       <div class="col mb-4">
         <div class="card">
-          <img src="assets/img/1.jpg" class="card-img-top" alt="Meet and Coffe">
+          <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet and Coffe">
           <div class="card-body">
             <h5 class="card-title">Meet&Coffe</h5>
             <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
@@ -81,7 +115,7 @@
       </div>
       <div class="col mb-4">
         <div class="card">
-          <img src="assets/img/2.jpg" class="card-img-top" alt="Iguana Page">
+          <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana Page">
           <div class="card-body">
             <h5 class="card-title">Iguana Page</h5>
             <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
@@ -90,7 +124,7 @@
       </div>
       <div class="col mb-4">
         <div class="card">
-          <img src="assets/img/3.jpg" class="card-img-top" alt="Suricata">
+          <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
           <div class="card-body">
             <h5 class="card-title">Suricata</h5>
             <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
@@ -103,7 +137,7 @@
       <div class="row row-cols-1 row-cols-md-2">
         <div class="col mb-4">
           <div class="card">
-            <img src="assets/img/4.jpg" class="card-img-top" alt="Foto cama">
+            <img src="assets/img/cuppon.png" class="card-img-top" alt="Foto cama">
             <div class="card-body">
               <h5 class="card-title">Cuppon</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
@@ -112,7 +146,7 @@
         </div>
         <div class="col mb-4">
           <div class="card">
-            <img src="assets/img/4.jpg" class="card-img-top" alt="Ricomida">
+            <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
             <div class="card-body">
               <h5 class="card-title">Ricomida</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
@@ -121,7 +155,7 @@
         </div>
         <div class="col mb-4">
           <div class="card">
-            <img src="..." class="card-img-top" alt="DMark">
+            <img src="assets/img/dmark.png" class="card-img-top" alt="DMark">
             <div class="card-body">
               <h5 class="card-title">DMark</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
@@ -132,16 +166,43 @@
       </div>
     </div>
     </section>
+  
+  <!-- Formulario -->
+  <section id="Contacto" class="container pt-5">
+    <div class="text-center pt-4">
+      <h1 class="display-5">CONTACTO</h1>
+      <hr class="my-2 col-1 border-black subline" />
+    </div>
+  <div class="typeform-widget" data-url="https://mariadelosangelesvalencia.typeform.com/to/kv1MWq" style="width: 100%; height: 500px;"></div>
+   <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+  <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by 
+    <a href="https://admin.typeform.com/signup?utm_campaign=kv1MWq&utm_source=typeform.com-01E7P7CS4K50297PMKBCRH6EMT-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a>
+   </div> 
+  </section>
 
-  <!-- Tooltips-->
+ <!-- Footer -->
+ <footer class="py-5">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6 py-2 d-flex align-items-center justify-content-center">
+  <h2 id="logo" class="font-weight-bold text-white">ANGELES</h2>
+  </div> 
+  <ul class="col-md-6 py-2 d-flex align-items-center justify-content-center">
+  <a href="https://github.com/angelesvalencia/portafolio" target="_blank" title="GitHub"><i class="fab fa-github-square fa-4x text-white mx-3"></i></a>
+  <a href="https://www.linkedin.com/in/maría-de-los-angeles-valencia-escobar-babba54a" target="_blank" title="Linkedin"> <i class="fab fa-linkedin fa-4x text-white mx-3"></i></a>
+  <a href="https://twitter.com/angelitave" target="_blank" title="twitter"> <i class="fab fa-twitter-square fa-4x text-white mx-3"></i></a>
+  <a href="https://www.facebook.com" target="_blank" title="facebook"> <i class="fab fa-facebook-square fa-4x text-white mx-3"></i></a>
+  </ul>
+  </div>
+  </footer>
 
 
-
-
-    <!-- Optional JavaScript -->
+ <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <!--Mi script-->
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -3,6 +3,10 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Oswald', sans-serif;
 #660066
 */
+html, body{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -21,22 +25,43 @@ body{
     font-size: 40px;
     margin-left: 50px;
 }
-
 .imagen{
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 100% auto;
+    background-position: center top;
     display: inline-block;
+    background: no-repeat center top;
+    margin: 0;
 
 }
 
-/*
-Cards
-*/
+.titulo{
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform: translate(-50%, 20%);
+}
+
+.linea{
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform: translate(-50%, 100%);
+}
+.titulo2{
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform: translate(-50%, 150%);
+}
+
+.justificar{
+    text-justify: auto;
+}
 
 .cards{
     background-color: #660066;
-    height: 982px;
+
 }
 
 .card-title{
@@ -47,9 +72,25 @@ Cards
     font-size: 16px;
 }
 
-/*
-Cards
-*/
+header{
+    background-image: url(../img/F99F49D4-48D0-4A37-AD01-8E6EA4C90644.JPG);
+    background-size: cover;
+    background-position: center top;
+ 
+}
+
+header img{
+    opacity: 0;
+}
+
+footer{
+    background-color: #660066;
+   }
 
 
-
+@media  screen and (max-width: 400px){
+    #nav-mobile{
+        margin: 0 6% 0 6% !;
+    }
+    
+}
